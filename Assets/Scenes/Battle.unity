@@ -135,10 +135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f07dd786860f408ce3b607890c9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxHp: 100
-  m_Atk: 10
-  m_AtkRange: 2
-  m_Speed: 2.7
+  hp: 100
+  atk: 10
+  atkRange: 2
+  spd: 2.7
+  isAlive: 1
+  HomeSickDistance: 10
 --- !u!114 &204497326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,16 +153,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1174983509e2ba4db875e4849c12749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 100
+  atk: 10
+  atkRange: 2
+  spd: 3
+  isAlive: 1
   m_Enemy:
     serializedVersion: 2
     m_Bits: 128
   m_Ground:
     serializedVersion: 2
     m_Bits: 256
-  m_MaxHp: 100
-  m_Atk: 10
-  m_AtkRange: 2
-  m_Speed: 3
 --- !u!195 &204497327
 NavMeshAgent:
   m_ObjectHideFlags: 0

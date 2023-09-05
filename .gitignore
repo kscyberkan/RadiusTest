@@ -3,3 +3,6 @@ Logs/
 *.vsconfig
 *.csproj
 *.sln
+.vs/
+obj/
+Temp/
